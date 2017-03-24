@@ -9,12 +9,12 @@ module.exports = {
     browser
       .pause(1000)
       .setValue('#input', 'nightwatch')
-      .expect.element('#result').text.to.equal('test')
+      .expect.element('#result').text.to.equal('foodwatch')
     browser
       .pause(1000)
       .clearValue('#input')
       .setValue('#input', 'test')
-      .expect.element('#result').text.to.equal('nightwatch')
+      .expect.element('#result').text.to.equal('test')
     browser
       .pause(1000)
       .end()
