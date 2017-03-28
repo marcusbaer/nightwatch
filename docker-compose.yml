@@ -4,6 +4,8 @@ services:
     image: nginx:1.10-alpine
     volumes:
       - ./app:/usr/share/nginx/html
+    ports:
+      - 80:80
   chromedriver:
     image: blueimp/chromedriver
     environment:
