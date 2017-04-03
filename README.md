@@ -38,3 +38,6 @@ Requires env variables in `.env`:
     BS_USER, BS_KEY
 
 Automated testing with Browserstack https://www.browserstack.com/automate/nightwatch
+
+Testing with Rest API:
+https://github.com/scottgonzalez/node-browserstack

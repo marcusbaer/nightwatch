@@ -1,4 +1,6 @@
 .DS_Store
 .env
+.gitignore
+/node_modules
 /test/screenshots
 /test/videos

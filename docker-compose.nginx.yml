@@ -1,9 +1,9 @@
 version: '2'
 services:
   app:
-    build: ./docker/app
+    image: nginx:1.10-alpine
     volumes:
-      - ./app:/home/node
+      - ./app:/usr/share/nginx/html
     ports:
       - 80:80
   chromedriver:

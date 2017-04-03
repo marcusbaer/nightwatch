@@ -1,5 +1,5 @@
 'use strict'
-/*
+
 module.exports = {
   'nightwatch test': function (browser) {
     browser
@@ -20,4 +20,3 @@ module.exports = {
       .end()
   }
 }
-*/
