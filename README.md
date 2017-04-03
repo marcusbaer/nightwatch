@@ -30,3 +30,11 @@ Released under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Author
 [Sebastian Tschan](https://blueimp.net/)
+
+## Browserstack
+
+Requires env variables in `.env`:
+
+    BS_USER, BS_KEY
+
+Automated testing with Browserstack https://www.browserstack.com/automate/nightwatch

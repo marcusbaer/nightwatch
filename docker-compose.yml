@@ -20,5 +20,7 @@ services:
       - app
     environment:
       - WAIT_FOR_HOSTS=app:80 chromedriver:4444 chromedriver:6060
+      - BS_USER=${BS_USER}
+      - BS_KEY=${BS_KEY}
     volumes:
       - ./test:/home/node
