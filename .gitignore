@@ -1,4 +1,5 @@
 .DS_Store
 .env
+/test/node_modules
 /test/screenshots
 /test/videos
